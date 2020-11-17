@@ -1,0 +1,7 @@
+s3_conf:
+  s3_bucket: test-sanju
+
+deltalake_conf:
+  hdfs_table_path: "/deltalake-demo/tables/sample-data-table"
+  delta_table_path: "/deltalake-demo/tables/sample-delta-table"
+  delta_merge_table_path: "/deltalake-demo/tables/delta-merge-table"
