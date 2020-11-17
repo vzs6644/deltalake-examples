@@ -46,7 +46,7 @@ if __name__ == '__main__':
 
     step = "all_versions"
 
-    if step == "all_versions":
+    if step == "version":
         delta_df = DeltaTable.forPath(spark, delta_table_path)
         delta_df \
             .history() \
