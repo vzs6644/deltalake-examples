@@ -44,7 +44,7 @@ if __name__ == '__main__':
 
     delta_merge_path = "s3a://" + app_conf["s3_conf"]["s3_bucket"] + "/delta_merge_delta"
 
-    step = "merge"
+    step = "create"
     if step == 'create':
         delta_merge_df = sc.parallelize([
             ("Brazil",  2011, 22.029),
