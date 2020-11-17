@@ -44,7 +44,7 @@ if __name__ == '__main__':
 
     delta_table_path = "s3a://" + app_conf["s3_conf"]["s3_bucket"] + "/schema_enforcement_delta"
 
-    step = "overwrite"
+    step = "append"
     if step == "overwrite":
         data = sc.parallelize([
             ("Brazil",  2011, 22.029),
