@@ -1,5 +1,5 @@
 s3_conf:
-  s3_bucket: test-sanju
+  s3_bucket: varun-bucket-varun
 
 deltalake_conf:
   hdfs_table_path: "/deltalake-demo/tables/sample-data-table"
